@@ -47,11 +47,12 @@ h2{
   display: flex;
   justify-content: center;
 }
-.my-img{
-  display: grid;
-  justify-items: center;
-  max-width: 100%;
+.my-img img {
+  width: 100%;
+  max-width: 500px;
   height: auto;
+  display: block;
+  margin: 0 auto;
 }
 img{
   border-radius: 20px;
