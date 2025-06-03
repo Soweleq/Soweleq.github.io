@@ -9,10 +9,21 @@ html {
 
 .menu{
   display: flex;
-  color: white;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.menu ul {
+  display: flex;
   gap: 2em;
-  align-items: right;
-  justify-content: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.menu li {
+  display: inline-block;
 }
 .menu a {
   color: white;
@@ -38,9 +49,10 @@ h2{
   justify-content: center;
 }
 .my-img{
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  display: grid;
+  justify-items: center;
+  max-width: 100%;
+  height: auto;
 }
 img{
   border-radius: 20px;
@@ -250,21 +262,33 @@ img{
 
 
 @media (max-width: 600px) {
+  body {
+    padding: 0 10px;
+  }
+
   h1, h2 {
     font-size: 1.4em;
     text-align: center;
   }
 
-  .about-divider {
+  .about-divider,
+  .expiriece-divider,
+  .contact-divider {
     flex-direction: column;
   }
 
   .about-divider::before,
-  .about-divider::after {
+  .about-divider::after,
+  .expiriece-divider::before,
+  .expiriece-divider::after,
+  .contact-divider::before,
+  .contact-divider::after {
     display: none;
   }
 
-  .about-divider span {
+  .about-divider span,
+  .expiriece-divider span,
+  .contact-divider span {
     font-size: 1.3em;
   }
 
@@ -273,15 +297,16 @@ img{
     gap: 1em;
   }
 
-  .menu {
+  .menu ul {
     flex-direction: column;
     align-items: center;
     gap: 1em;
   }
 
-  .my-img img {
-    width: 90%;
-    height: auto;
+  .lang-switcher {
+    flex-direction: row;
+    gap: 0.5em;
+    margin-top: 1em;
   }
 
   .cookie-banner {
