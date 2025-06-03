@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl" ng-app="portfolioApp" ng-controller="MainController" ng-cloak>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ t.title }}</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <a href="#hero">{{ t.heroTitle }}</a>
+        <a href="#about">{{ t.aboutTitle }}</a>
+        <a href="#projects">{{ t.projectsTitle }}</a>
+        <a href="#contact">{{ t.contactTitle }}</a>
+      </ul>
+    </nav> 
+  </header>
+
+  <h1>
+    {{t.name}} 
+    {{t.job}} 
+    
+  </h1>
+  <img src="img\109848580_1554428914717880_1866185555887725665_n.jpg" width="300">
+    
+  <footer class="footer">
+    <p>{{ t.footer }}</p>
+    
+  </footer>
+  <div class="lang-switcher" >
+    <img src="https://flagcdn.com/w20/pl.png" alt="Polski" ng-click="changeLang('plhome')" class="flag" />
+    <img src="https://flagcdn.com/w20/gb.png" alt="English" ng-click="changeLang('enhome')" class="flag" />
+  </div>
+
+  <div class="cookie-banner" ng-if="showCookies">
+    <p>{{ t.cookies }}</p>
+    <button ng-click="acceptCookies()">{{ t.accept }}</button>
+  </div>
+
+</body>
+</html>

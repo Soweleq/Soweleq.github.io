@@ -1,0 +1,17 @@
+{
+  "title": "My Portfolio",
+  "name": "SEBASTIAN SOWA",
+  "heroTitle": "Welcome to my site!",
+  "heroDesc": "I'm a passionate front-end developer.",
+  "aboutTitle": "About Me",
+  "aboutText": "I specialize in building responsive web pages.",
+  "projectsTitle": "Projects",
+  "projects": [
+    { "name": "Project A", "desc": "A task management app." },
+    { "name": "Project B", "desc": "Client's portfolio website." }
+  ],
+  "contactTitle": "Contact",
+  "footer": "© 2025 Sebastian Sowa. All rights reserved.",
+  "cookies": "This website uses cookies.",
+  "accept": "Accept"
+}
