@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ t.title }}</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
   <script src="app.js"></script>
 </head>
@@ -13,28 +14,63 @@
   <header>
     <nav class="menu">
       <ul>
-        <a href="#hero">{{ t.heroTitle }}</a>
         <a href="#about">{{ t.aboutTitle }}</a>
-        <a href="#projects">{{ t.projectsTitle }}</a>
+        <a href="#expiriece">{{ t.expirieceTitle }}</a>
         <a href="#contact">{{ t.contactTitle }}</a>
       </ul>
     </nav> 
   </header>
 
-  <h1>
-    {{t.name}} 
-    {{t.job}} 
-    
-  </h1>
-  <img src="img\109848580_1554428914717880_1866185555887725665_n.jpg" width="300">
-    
+  <h1>{{t.name}}</h1>
+  <h2>{{t.job}}</h2>
+  <div class="my-img">
+    <img src="img\109848580_1554428914717880_1866185555887725665_n.jpg" width="500">
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/Soweleq" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://x.com/Sowel30197298" target="_blank" title="X (Twitter)">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://www.facebook.com/sebastian.sowa.562?locale=pl_PL" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+  </div>  
+
+  <section id="about">
+    <div class="about">
+      <div class="about-divider">
+        <span>{{ t.aboutHead }}</span>
+      </div>
+      <p>{{t.aboutText}}</p>
+    </div>
+  </section>
+
+  <section id="expiriece">
+    <div class="expiriece">
+      <div class="expiriece-divider">
+        <span>{{ t.expirieceHead }}</span>
+      </div>
+      <p>{{t.expirieceText}}</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div class="contact-divider">
+        <span>{{ t.contactHead }}</span>
+      </div>
+      <p>{{t.contactText}}</p>
+    </div>
+  </section>
   <footer class="footer">
-    <p>{{ t.footer }}</p>
+    <d1>{{ t.footer }}</d1>
     
   </footer>
   <div class="lang-switcher" >
-    <img src="https://flagcdn.com/w20/pl.png" alt="Polski" ng-click="changeLang('plhome')" class="flag" />
-    <img src="https://flagcdn.com/w20/gb.png" alt="English" ng-click="changeLang('enhome')" class="flag" />
+    <img src="https://flagcdn.com/w20/pl.png" alt="Polski" ng-click="changeLang('pl')" class="flag" />
+    <img src="https://flagcdn.com/w20/gb.png" alt="English" ng-click="changeLang('en')" class="flag" />
   </div>
 
   <div class="cookie-banner" ng-if="showCookies">

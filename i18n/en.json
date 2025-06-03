@@ -1,16 +1,25 @@
 {
   "title": "My Portfolio",
+
+  "aboutTitle": "ABOUT ME",
+  "expirieceTitle": "EXPIRIENCE",
+  "contactTitle": "CONTACT",
+
   "name": "SEBASTIAN SOWA",
+  "job": "CNC Machine Operator",
+
   "heroTitle": "Welcome to my site!",
   "heroDesc": "I'm a passionate front-end developer.",
-  "aboutTitle": "About Me",
+
+  "aboutHead": "About me",
   "aboutText": "I specialize in building responsive web pages.",
-  "projectsTitle": "Projects",
-  "projects": [
-    { "name": "Project A", "desc": "A task management app." },
-    { "name": "Project B", "desc": "Client's portfolio website." }
-  ],
-  "contactTitle": "Contact",
+
+  "expirieceHead": "DOŚWIADCZENIE",
+  "expirieceText": "Coś tu się da",
+
+  "contactHead": "KONTAKT",
+  "contactText": "Coś tu się da znowu",
+
   "footer": "© 2025 Sebastian Sowa. All rights reserved.",
   "cookies": "This website uses cookies.",
   "accept": "Accept"

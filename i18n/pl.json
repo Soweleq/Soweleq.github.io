@@ -1,17 +1,25 @@
 {
   "title": "Moje Portfolio",
+
+  "aboutTitle": "O MNIE",
+  "expirieceTitle": "DOŚWIADCZENIE",
+  "contactTitle": "KONTAKT",
+
   "name": "SEBASTIAN SOWA",
   "job": "Operator maszyn CNC",
+
   "heroTitle": "Witaj na mojej stronie!",
   "heroDesc": "Jestem front-end developerem z pasją.",
-  "aboutTitle": "O mnie",
+
+  "aboutHead": "O MNIE",
   "aboutText": "Mam doświadczenie w tworzeniu responsywnych stron internetowych.",
-  "projectsTitle": "Projekty",
-  "projects": [
-    { "name": "Projekt A", "desc": "Aplikacja do zarządzania zadaniami." },
-    { "name": "Projekt B", "desc": "Strona portfolio dla klienta." }
-  ],
-  "contactTitle": "Kontakt",
+
+  "expirieceHead": "DOŚWIADCZENIE",
+  "expirieceText": "Coś tu się da",
+
+  "contactHead": "KONTAKT",
+  "contactText": "Coś tu się da znowu",
+
   "footer": "© 2025 Sebastian Sowa. Wszelkie prawa zastrzeżone.",
   "cookies": "Ta strona używa plików cookies.",
   "accept": "Akceptuję"

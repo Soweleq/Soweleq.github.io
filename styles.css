@@ -1,5 +1,241 @@
+body{
+  background-color: #000;
+  font-family: 'Inter', sans-serif;
+}
 
-/* .cookie-banner {
+html {
+  scroll-behavior: smooth;
+}
+
+.menu{
+  display: flex;
+  color: white;
+  gap: 2em;
+  align-items: right;
+  justify-content: right;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: relative;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.menu a:hover,
+.menu a:focus {
+  background-color: #555;
+}
+h1{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+h2{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.my-img{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+img{
+  border-radius: 20px;
+}
+.social-icons {
+  display: flex;
+  gap: 40px;
+  padding:20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.social-icons a {
+  font-size: 32px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 2em 0;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.about-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 90%;
+}
+
+.about-divider::before,
+.about-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #888;
+}
+
+.about-divider::before {
+  margin-right: 0.7em;
+}
+
+.about-divider::after {
+  margin-left: 0.7em;
+}
+
+.about-divider span {
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.expiriece {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 2em 0;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.expiriece-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 90%;
+}
+
+.expiriece-divider::before,
+.expiriece-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #888;
+}
+
+.expiriece-divider::before {
+  margin-right: 0.7em;
+}
+
+.expiriece-divider::after {
+  margin-left: 0.7em;
+}
+
+.expiriece-divider span {
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.expiriece p {
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 2em 0;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.contact-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 90%;
+}
+
+.contact-divider::before,
+.contact-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #888;
+}
+
+.contact-divider::before {
+  margin-right: 0.7em;
+}
+
+.contact-divider::after {
+  margin-left: 0.7em;
+}
+
+.contact-divider span {
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.contact p {
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+.footer{
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.lang-switcher{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.flag {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.flag:hover {
+  transform: scale(1.2);
+  border-color: white;
+}
+
+.cookie-banner {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -9,10 +245,52 @@
   padding: 1em;
   display: flex;
   justify-content: space-between;
-} */
+}
 
 
 
 @media (max-width: 600px) {
-  
+  h1, h2 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .about-divider {
+    flex-direction: column;
+  }
+
+  .about-divider::before,
+  .about-divider::after {
+    display: none;
+  }
+
+  .about-divider span {
+    font-size: 1.3em;
+  }
+
+  .social-icons {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .my-img img {
+    width: 90%;
+    height: auto;
+  }
+
+  .cookie-banner {
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+  }
+
+  .cookie-banner button {
+    width: 100%;
+  }
 }

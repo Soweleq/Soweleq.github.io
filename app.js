@@ -1,7 +1,7 @@
 const app = angular.module('portfolioApp', []);
 
 app.controller('MainController', function ($scope, $http) {
-  $scope.lang = localStorage.getItem("lang") || "plhome";
+  $scope.lang = localStorage.getItem("lang") || "pl";
   $scope.showCookies = localStorage.getItem("cookiesAccepted") !== "yes";
 
   $scope.loadTranslations = function (lang) {
@@ -21,5 +21,4 @@ app.controller('MainController', function ($scope, $http) {
   };
 
   $scope.loadTranslations($scope.lang);
-
 });
