@@ -8,8 +8,8 @@ html {
 }
 
 .menu{
-  display: flex;
-  justify-content: right;
+  position: relative;
+  justify-items: right;
   margin-top: 1em;
 }
 
@@ -248,7 +248,7 @@ img{
 
 .cookie-banner {
   position: fixed;
-  bottom: 0;
+  bottom: 100px;
   left: 0;
   right: 0;
   background: #222;
@@ -256,8 +256,48 @@ img{
   padding: 1em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 999;
+  border-radius: 10px;
 }
 
+.cookie-text {
+  text-align: center;
+  flex: 1;
+  font-size: 1em;
+  padding: 0.5em;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 0.5em;
+}
+
+.cookie-banner button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.cookie-banner button:hover {
+  background-color: #b9b9b9;
+  transform: scale(1.05);
+}
+
+.cookie-banner button:last-child {
+  background-color: #ffffff;
+}
+
+.cookie-banner button:last-child:hover {
+  background-color: #b9b9b9;
+}
 
 
 @media (max-width: 600px) {

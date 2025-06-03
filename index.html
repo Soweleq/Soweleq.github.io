@@ -74,9 +74,12 @@
   </div>
 
   <div class="cookie-banner" ng-if="showCookies">
-    <p>{{ t.cookies }}</p>
+  <p class="cookie-text">{{ t.cookies }}</p>
+  <div class="cookie-buttons">
     <button ng-click="acceptCookies()">{{ t.accept }}</button>
+    <button ng-click="declineCookies()">{{ t.decline }}</button>
   </div>
+</div>
 
 </body>
 </html>

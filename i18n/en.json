@@ -22,5 +22,6 @@
 
   "footer": "© 2025 Sebastian Sowa. All rights reserved.",
   "cookies": "This website uses cookies.",
-  "accept": "Accept"
+  "accept": "Accept",
+  "decline":"Decline"
 }

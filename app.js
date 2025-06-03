@@ -19,6 +19,9 @@ app.controller('MainController', function ($scope, $http) {
     localStorage.setItem("cookiesAccepted", "yes");
     $scope.showCookies = false;
   };
+  $scope.declineCookies = function() {
+  $scope.showCookies = false;
+  }
 
   $scope.loadTranslations($scope.lang);
 });
