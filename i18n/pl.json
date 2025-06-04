@@ -3,22 +3,32 @@
 
   "aboutTitle": "O MNIE",
   "expirieceTitle": "DOŚWIADCZENIE",
-  "contactTitle": "KONTAKT",
+  "educationTitle": "WYKSZTAŁCENIE",
+  "skillTitle": "UMIEJĘTNOŚCI",
 
   "name": "SEBASTIAN SOWA",
   "job": "Operator maszyn CNC",
 
-  "heroTitle": "Witaj na mojej stronie!",
-  "heroDesc": "Jestem front-end developerem z pasją.",
-
   "aboutHead": "O MNIE",
-  "aboutText": "Mam doświadczenie w tworzeniu responsywnych stron internetowych.",
+  "aboutText": "Cześć! Nazywam się Sebastian i w wolnej chwili pasjonuję się motoryzacją. Najchętniej spędzam czas na dwóch kółkach – jazda motocyklem daje mi poczucie wolności i przypływ adrenaliny. Lubię też zrelaksować się przy dobrej grze komputerowej. Jestem ciekawy świata i otwarty na nowe wyzwania.",
 
   "expirieceHead": "DOŚWIADCZENIE",
-  "expirieceText": "Coś tu się da",
+  "expirieceDate": "2021 - Obecnie",
+  "expirieceText": "ADDIT - Operator maszyn CNC. Dział pras krwędziowych. Obsługa maszyn firmy Safan Darley, LVD. Odpowiedzialny za precyzyjne gięcie blach zgodnie z rysunkami technicznymi.",
 
-  "contactHead": "KONTAKT",
-  "contactText": "Coś tu się da znowu",
+  "educationHead": "WYKSZTAŁCENIE",
+  "educationDate": "2022 - Obecnie",
+  "educationText1": "Liceum Ogólnokształące im. Adama Mickiewicza w Wegrowie",
+  "educationText2": "Szkoła Głowna Gospodarstwa Wiejskiego w Warszawie - studia inżynierskie - Informatyka",
+
+  "skillHead": "UMIEJĘTNOŚCI",
+  "skillText1": "- Prawo jazdy kat. A, B",
+  "skillText2": "- Języki: Angielski - B2, Polski - ojczysty",
+  "skillText3": "- Znajomość rysunku technicznego",
+  "skillText4": "- Obsługa pakietu MS Office",
+  "skillText5": "- Technologie webowe: HTML, CSS, Angular",
+  "skillText6": "- Systemy operacyjne: Windows, Linux",
+  "skillText7": "Umiejętności miekke: Praca zespołowa, Rozwiązywanie problemów, Komunikatywność, Samodzielność",
 
   "footer": "© 2025 Sebastian Sowa. Wszelkie prawa zastrzeżone.",
   "cookies": "Ta strona używa plików cookies.",

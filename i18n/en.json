@@ -2,23 +2,33 @@
   "title": "My Portfolio",
 
   "aboutTitle": "ABOUT ME",
-  "expirieceTitle": "EXPIRIENCE",
-  "contactTitle": "CONTACT",
+  "expirieceTitle": "EXPIRIECE",
+  "educationTitle": "EDUCATION",
+  "skillTitle": "SKILL",
 
   "name": "SEBASTIAN SOWA",
   "job": "CNC Machine Operator",
 
-  "heroTitle": "Welcome to my site!",
-  "heroDesc": "I'm a passionate front-end developer.",
+  "aboutHead": "ABOUT ME",
+  "aboutText": "Hi! My name is Sebastian, and in my free time I'm passionate about motorsports. I love spending time on two wheels – riding a motorcycle gives me a sense of freedom and adrenaline. I also enjoy relaxing with a good video game. I'm curious about the world and open to new challenges.",
 
-  "aboutHead": "About me",
-  "aboutText": "I specialize in building responsive web pages.",
+  "expirieceHead": "EXPIRIECE",
+  "expirieceDate": "2021 - Present",
+  "expirieceText": "ADDIT - CNC Machine Operator. Worked in the press brake department, operating CNC machines from Safan Darley and LVD. Responsible for precise sheet metal bending according to technical drawings.",
 
-  "expirieceHead": "DOŚWIADCZENIE",
-  "expirieceText": "Coś tu się da",
+  "educationHead": "EDUCATION",
+  "educationDate": "2022 - Present",
+  "educationText1": "Adam Mickiewicz General Secondary School in Węgrów",
+  "educationText2": "Warsaw University of Life Sciences - Bachelor's Degree - Faculty of Computer Science ",
 
-  "contactHead": "KONTAKT",
-  "contactText": "Coś tu się da znowu",
+  "skillHead": "SKILLS",
+  "skillText1": "- Driving license: category A, B",
+  "skillText2": "- Languages: English - B2, Polish - native",
+  "skillText3": "- Knowledge of technical drawing",
+  "skillText4": "- Proficient in MS Office suite",
+  "skillText5": "- Web technologies: HTML, CSS, Angular",
+  "skillText6": "- Operating systems: Windows, Linux",
+  "skillText7": "- Soft skills: Teamwork, Problem-solving, Communication, Independence",
 
   "footer": "© 2025 Sebastian Sowa. All rights reserved.",
   "cookies": "This website uses cookies.",

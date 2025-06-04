@@ -171,7 +171,7 @@ img{
   line-height: 1.6;
   max-width: 600px;
 }
-.contact {
+.education {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,7 +183,7 @@ img{
   text-align: center;
 }
 
-.contact-divider {
+.education-divider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,32 +192,98 @@ img{
   max-width: 90%;
 }
 
-.contact-divider::before,
-.contact-divider::after {
+.education-divider::before,
+.education-divider::after {
   content: '';
   flex: 1;
   border-bottom: 1px solid #888;
 }
 
-.contact-divider::before {
+.education-divider::before {
   margin-right: 0.7em;
 }
 
-.contact-divider::after {
+.education-divider::after {
   margin-left: 0.7em;
 }
 
-.contact-divider span {
+.education-divider span {
   white-space: nowrap;
   font-size: 1.5em;
   font-weight: bold;
 }
 
-.contact p {
+.education p {
   font-size: 1em;
   line-height: 1.6;
   max-width: 600px;
 }
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 2em 0;
+  gap: 30px;
+  color: white;
+  text-align: center;
+}
+
+.skill-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 90%;
+}
+
+.skill-divider::before,
+.skill-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #888;
+}
+
+.skill-divider::before {
+  margin-right: 0.7em;
+}
+
+.skill-divider::after {
+  margin-left: 0.7em;
+}
+
+.skill-divider span {
+  white-space: nowrap;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.skill p {
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+.job-list {
+  list-style-type: none; 
+  padding-left: 0;
+  line-height: 3;
+}
+
+.edu-list {
+  list-style-type: none; 
+  padding-left: 0;
+  line-height: 3;
+}
+.skill-list {
+  list-style-type: none; 
+  padding-left: 0;
+  text-align: left;
+  line-height: 3;
+}
+
 .footer{
   color: white;
   display: flex;

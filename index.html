@@ -16,7 +16,8 @@
       <ul>
         <li><a href="#about">{{ t.aboutTitle }}</a></li>
         <li><a href="#expiriece">{{ t.expirieceTitle }}</a></li>
-        <li><a href="#contact">{{ t.contactTitle }}</a></li>
+        <li><a href="#education">{{ t.educationTitle }}</a></li>
+        <li><a href="#skill">{{ t.skillTitle }}</a></li>
       </ul>
     </nav> 
   </header>
@@ -52,18 +53,41 @@
       <div class="expiriece-divider">
         <span>{{ t.expirieceHead }}</span>
       </div>
-      <p>{{t.expirieceText}}</p>
+      <ul class="job-list">
+        <li><strong>{{t.expirieceDate}}:</strong> {{t.expirieceText}}</li>
+      </ul>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="contact">
-      <div class="contact-divider">
-        <span>{{ t.contactHead }}</span>
+  <section id="education">
+    <div class="education">
+      <div class="education-divider">
+        <span>{{ t.educationHead}}</span>
       </div>
-      <p>{{t.contactText}}</p>
+      <ul class="edu-list">
+        <li><strong>2018-2021:</strong> {{t.educationText1}}</li>
+        <li><strong>{{t.educationDate}}:</strong> {{t.educationText2}}</li>
+      </ul>
     </div>
   </section>
+
+    <section id="skill">
+    <div class="skill">
+      <div class="skill-divider">
+        <span>{{ t.skillHead}}</span>
+      </div>
+      <ul class="skill-list">
+        <li>{{t.skillText1}}</li>
+        <li>{{t.skillText2}}</li>
+        <li>{{t.skillText3}}</li>
+        <li>{{t.skillText4}}</li>
+        <li>{{t.skillText5}}</li>
+        <li>{{t.skillText6}}</li>
+        <li>{{t.skillText7}}</li>
+      </ul>
+    </div>
+  </section>
+
   <footer class="footer">
     <d1>{{ t.footer }}</d1>
     
