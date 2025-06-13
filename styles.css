@@ -374,21 +374,28 @@ img{
   .menu {
     display: flex;
     justify-content: center;
-    margin-top: 1em;
+    align-items: center;
+    flex-direction: column;
   }
 
   .menu ul {
-    flex-wrap: nowrap;
-    justify-content: center;
-    overflow-x: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1em;
+    margin-top: 1em;
   }
 
   .menu li {
-    white-space: nowrap;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 
   .menu a {
-    padding: 0.5em 0.8em;
-    font-size: 0.9em;
+    display: block;
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1em;
   }
 }
