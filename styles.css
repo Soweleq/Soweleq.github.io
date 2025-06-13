@@ -368,7 +368,7 @@ img{
 
 
 @media (max-width: 600px) {
-  /* .menu {
+  .menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,5 +392,5 @@ img{
     display: block;
     padding: 0.5em 1em;
     font-size: 1em;
-  } */
+  }
 }
