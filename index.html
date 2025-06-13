@@ -10,7 +10,7 @@
   <script src="./app.js"></script>
 </head>
 
-<body ng-app="portfolioApp" ng-controller="MainController" ng-cloak>
+<body data-ng-app="portfolioApp" data-ng-controller="MainController" data-ng-cloak>
   <header>
     <nav class="menu">
       <ul>
@@ -25,7 +25,7 @@
   <h1>{{t.name}}</h1>
   <h2>{{t.job}}</h2>
   <section class="my-img">
-    <img src="img/109848580_1554428914717880_1866185555887725665_n.jpg">
+    <alt img src="img/109848580_1554428914717880_1866185555887725665_n.jpg">
   </section>
   <div class="social-icons">
     <a href="https://github.com/Soweleq" target="_blank" title="GitHub">
@@ -89,9 +89,9 @@
   </section>
 
   <footer class="footer">
-    <d1>{{ t.footer }}</d1>
-    
+    {{ t.footer }}   
   </footer>
+  
   <div class="lang-switcher" >
     <img src="https://flagcdn.com/w20/pl.png" alt="Polski" ng-click="changeLang('pl')" class="flag" />
     <img src="https://flagcdn.com/w20/gb.png" alt="English" ng-click="changeLang('en')" class="flag" />
