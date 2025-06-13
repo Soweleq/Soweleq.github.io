@@ -387,13 +387,13 @@ img{
   }
 
   .menu li {
-    display: block;
+    display: flex;
     width: 100%;
     text-align: center;
   }
 
   .menu a {
-    display: block;
+    display: flex;
     width: 100%;
     padding: 1em 0;
     font-size: 1em;
