@@ -369,23 +369,22 @@ img{
 
 @media (max-width: 600px) {
   .menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 1em;
+    overflow-x: auto;           
+    -webkit-overflow-scrolling: touch; 
+    scroll-snap-type: x mandatory;     
   }
 
   .menu ul {
     flex-wrap: nowrap;
-    justify-content: center;
-    overflow-x: auto;
+    gap: 0.5em;
   }
 
   .menu li {
-    white-space: nowrap;
+    scroll-snap-align: start;     
   }
 
   .menu a {
-    padding: 0.5em 0.8em;
-    font-size: 0.9em;
+    padding: 0.5em 1em;
+    font-size: 1em;
   }
 }
