@@ -31,7 +31,7 @@ html {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
   padding: 0.5em 1em;
   border-radius: 4px;
   transition: background-color 0.3s;
