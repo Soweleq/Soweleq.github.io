@@ -97,11 +97,11 @@
     <img src="https://flagcdn.com/w20/gb.png" alt="English" data-ng-click="changeLang('en')" class="flag" />
   </div>
 
-  <div class="cookie-banner" ng-if="showCookies">
+  <div class="cookie-banner" data-ng-if="showCookies">
   <p class="cookie-text">{{ t.cookies }}</p>
   <div class="cookie-buttons">
-    <button ng-click="acceptCookies()">{{ t.accept }}</button>
-    <button ng-click="declineCookies()">{{ t.decline }}</button>
+    <button data-ng-click="acceptCookies()">{{ t.accept }}</button>
+    <button data-ng-click="declineCookies()">{{ t.decline }}</button>
   </div>
 </div>
 
