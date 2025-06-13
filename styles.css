@@ -368,29 +368,5 @@ img{
 
 
 @media (max-width: 600px) {
-  .menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
 
-  .menu ul {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 1em;
-    margin-top: 1em;
-  }
-
-  .menu li {
-    display: block;
-    text-align: center;
-  }
-
-  .menu a {
-    display: block;
-    padding: 0.5em 1em;
-    font-size: 1em;
-  }
 }
